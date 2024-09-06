@@ -65,8 +65,6 @@ function isOperator(button) {
 
 /**
  * Verifica condições para a entrada de um operador.
- * Se o número em digitação não estiver começado, não insere ponto decimal.
- * Se o número em digitação já tiver ponto decimal, não insere ponto.
  * @param button recebe o botão clicado como parâmetro
  */
 function onOperatorClick(button) {
